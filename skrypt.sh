@@ -8,3 +8,5 @@ git status
 git add plik.sh
 git commit -m "Dodano plik.sh"
 git push --set-upstream orgin main
+
+git log --oneline
