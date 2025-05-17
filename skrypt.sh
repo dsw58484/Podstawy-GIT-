@@ -31,3 +31,9 @@ if [[ "$1" == "--logs" ]]; then
     echo "Utworzony przez skrypt.sh --logs $count w dniu $(date)" >> "log$1.txt"
   done
 fi
+
+fi [[ "$1" == "--help" ]]; then
+   echo "--date      : wyświetla dzisiejszą datę"
+   echo "--logs [N]  : tworzy pliki log1.txt ... logN.txt"
+   echo "--help      : pokazuje wszystkie dostępne opcje"
+fi
