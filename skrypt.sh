@@ -23,3 +23,11 @@ if [[ "$1" == "--logs" ]]; then
   for i in {1..100}; do
     echo "plik log$i.txt" > "log$i.txt"
     echo "Utworzony przez skrypt.sh -- logs w dniu $(date)" >>"log$i.txt"
+
+if [[ "$1" == "--logs" ]]; then
+  count=${2:-100}
+  for ((i=1;i<=count;i++)); do
+    echo "plik log$1.txt" > "log$1.txt"
+    echo "Utworzony przez skrypt.sh --logs $count w dniu $(date)" >> "log$1.txt"
+  done
+fi
