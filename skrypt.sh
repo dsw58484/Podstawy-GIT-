@@ -10,3 +10,4 @@ git commit -m "Dodano plik.sh"
 git push --set-upstream orgin main
 
 git log --oneline
+git remote -v
