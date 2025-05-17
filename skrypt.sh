@@ -18,3 +18,8 @@ git branch -d nowy-branch
 if [[ "$1" == "--date" ]]; then
   date
 fi
+
+if [[ "$1" == "--logs" ]]; then
+  for i in {1..100}; do
+    echo "plik log$i.txt" > "log$i.txt"
+    echo "Utworzony przez skrypt.sh -- logs w dniu $(date)" >>"log$i.txt"
