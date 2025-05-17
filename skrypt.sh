@@ -10,4 +10,7 @@ git commit -m "Dodano plik.sh"
 git push --set-upstream orgin main
 
 git log --oneline
-git remote -v
+git branch
+git checkout -b nowy-brauchn
+git merge nowy-branch
+git branch -d nowy-branch
