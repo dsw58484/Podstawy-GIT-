@@ -14,3 +14,7 @@ git branch
 git checkout -b nowy-brauchn
 git merge nowy-branch
 git branch -d nowy-branch
+
+if [[ "$1" == "--date" ]]; then
+  date
+fi
