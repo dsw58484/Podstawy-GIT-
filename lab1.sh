@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "To jest pierwszy skrypt do lab1"
+echo "Skrypt lab1 działa !"
